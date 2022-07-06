@@ -127,7 +127,7 @@ button{
     background-color: #e1dbdb;
 }
 .container{
-    width: 80%;
+    width: 80% !important;
     margin: 0 auto;
 }
 
@@ -137,14 +137,39 @@ button{
 .flex1{
     display:flex;
     margin-bottom: 100px;
-
+    justify-items: center;
+    margin-top: 40px;
 }
 .weidth1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.weidth1 h1{
+    font-size: 40px;
+    margin: 0px;
+}
+.weidth1 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.image{
+    width: 50%;
+}
+.image img{
     width: 100%;
 }
-
 .head-color{
     color:blue
+}
+.weidth1 button{
+    margin-left: 0;
+    margin-top: 10px;
 }
 
 
@@ -193,4 +218,19 @@ button{
 .input-button input{
     padding: 5px ;
     width: 300px;
+}
+
+footer{
+    background: #000;
+    padding: 20px 0px;
+    width: 100%;
+    margin-top: 40px;
+}
+footer h1{
+    text-align: center;
+    color: #f74646;
+}
+footer p{
+    text-align: center;
+    color: white;
 }
